@@ -321,35 +321,3 @@ int main() {
 
     return 0;
 }
-
-/*
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#define N 300
-
-int main() {
-    char base[N];
-    unsigned int i, j, cont=0;
-
-    while (scanf("%s", base)!=EOF)
-    { 
-        while (base[i]!="\0")
-        {
-            if((base[i]=='S' && base[j] == 'B') || (base[i]=='B' && base[j]=='S')) {
-                    cont++;
-            }
-            else if ((base[i]=='C' && base[j] == 'F') || (base[i]=='F' && base[j]=='C')) {
-                    cont++;
-            }
-            i++;
-        }
-        
-                
-            }
-    printf("%d\n", cont);
-    
-return 0;
-}
-
-*/
